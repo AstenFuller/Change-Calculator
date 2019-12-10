@@ -3,11 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <!-- Write your markup here -->
+    <h1>Change Calculator</h1>
+    <form name="inputForm">
+      <section class="inputSection">
+        <div class="labelAbove">
+          <label>How much is due for the sale?</label>
+          <input id="amount-due" />
+        </div>
+
+        <div class="labelAbove">
+          <label>How much has the customer given you?</label>
+          <input id="amount-received" />
+        </div>
+      </section>
+    </form>
+    
+        <div id="button">
+          <button id="calculate-change" onclick="handleClickEvent()">Calculate Change</button>
+        </div>
+      
+      <section id="dollars">
+        <div class="dollars">
+          <h2>Dollars</h2>
+          <p id="dollars-output">0</p>
+        </div>
+      </section>
+
+      <section id="otherChange">
+        <div id="quarters">
+          <h3>Quarters</h3>
+          <p id="quarters-output">0</p>
+        </div>
+        <div id="dimes">
+          <h3>Dimes</h3>
+          <p id="dimes-output">0</p>
+        </div>
+        <div id="nickels">
+          <h3>Nickels</h3>
+          <p id="nickels-output">0</p>
+        </div>
+        <div id="pennies">
+          <h3>Pennies</h3>
+          <p id="pennies-output">0</p>
+        </div>
+      </section>
 
     <!-- Don't forget to add your <script> tag here -->
-
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

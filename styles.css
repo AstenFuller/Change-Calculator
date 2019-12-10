@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+}
+
+.inputSection{
+    text-align: center;
+}
+
+.labelAbove {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+form section div label {
+    display: block;
+}
+
+input {
+    width: 300px;
+}
+
+#dollars {
+    text-align: center;
+}
+
+#otherChange {
+    text-align: center;
+}
+
+#otherChange div {
+    display: inline-block;
+    text-align: center;
+}
+
+#quarters, #dimes, #nickels {
+    margin-right: 20px;
+}
